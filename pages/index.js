@@ -143,13 +143,13 @@ export default function LandingPage() {
               <div className="flex flex-col justify-center">
                 <div className="text-center">
                   <div className="h1-container">
-                    <h1 className="font-bold text-4xl md:text-6xl mt-16 relative z-10 text-center max-w-full">
+                    <h1 className="font-bold text-3xl md:text-5xl mt-16 relative z-10 text-center max-w-full">
                       {t("dict2:index_banner_title")}
                     </h1>
                     <div className="highlighter-line"></div>
                   </div>
                 </div>
-                <h2 className="text-xl md:text-3xl text-center mt-14 mb-6">
+                <h2 className="text-xl md:text-2xl text-center mt-14">
                   {t("dict2:index_banner_title_byline_1")}
                   <br />
                   {t("dict2:index_banner_title_byline_2")}
@@ -157,7 +157,7 @@ export default function LandingPage() {
               </div>
               <div className="flex items-center justify-center">
                 <Link href="/map">
-                  <button className="call-action-button w-auto p-4 md:p-6 mt-6 text-lg md:text-2xl font-bold rounded-3xl">
+                  <button className="call-action-button w-auto p-4 text-lg font-bold">
                     {t("dict2:index_banner_map_button")}
                   </button>
                 </Link>
